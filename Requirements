@@ -1,0 +1,15 @@
+First install mySQL connector in system by using command panel in system then type this-: "pip mysql-connector-python"
+
+make sure you have already installed SQL server and python 
+
+
+
+SQL COMMANDS TO BE TYPED IN SQL SERVER
+
+create table books(book_name varchar(100),book_code varchar(20), total int, subject varchar(50));
+
+
+create table issue(name varchar(100),regno varchar(20), book_code int, issue varchar(50));
+
+
+create table submit(name varchar(100),regno varchar(20), book_code int, submit varchar(50));
